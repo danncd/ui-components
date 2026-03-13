@@ -39,6 +39,9 @@ export default function Home() {
 
 	return (
 		<div className="flex flex-col gap-4 w-fit text-sm">
+            <div className="font-medium text-2xl">
+                Components Playground
+            </div>
             <div className="flex flex-row gap-2 items-center">
                 <Switch id="dark-mode" onChange={() => setDarkMode(!darkMode)} disabledColor="Gray" enabledColor="Green"/>
                 <Label htmlFor="dark-mode">On/Off Dark Mode</Label>
